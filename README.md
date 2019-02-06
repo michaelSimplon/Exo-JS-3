@@ -1,4 +1,4 @@
-#EXO 3 : Mixons les fonctions
+# EXO 3 : Mixons les fonctions
 
 Créez une fonction addition() qui cette fois ci retourne directement l'addition du nombre + 10 (si je lui donne 5 , elle doit me renvoyer 15).
 Créez une deuxieme fonction qui multiplie un nombre qu'on lui donne par 4 et qui renvoie le résultat.
