@@ -5,4 +5,21 @@ Créez une deuxieme fonction qui multiplie un nombre qu'on lui donne par 4 et qu
 
 Faites en sorte, lors de l'appel des fonctions que lorsque je donne 15 à la fonction addition, le resultat soit donné à la fonction multiplication et que le résultat final soit affiché dans la console.
 
-Vous pouvez passer par des variables intermédiaires mais sachez qu'un appel de fonction peut être donné en argument à une autr fonction.
+Vous pouvez passer par des variables intermédiaires mais sachez qu'un appel de fonction peut être donné en argument à une autre fonction.
+
+exemple :
+
+    function maFonction1(bidule) {
+        //fait des trucs avec le bidule que je stocke dans un resultat
+        return resultat
+    }
+
+    function maFonction2(machin) {
+        //fait des trucs avec le machin que je stocke dans un resultat2
+
+        return resultat2
+    }
+
+console.log(maFonction1(maFonction2(chose)));
+
+Ici , ma maFonction2 est donnée en argument à maFonction1(pour être plus clair, c'est ça valeur de return qui lui sera donnée). 
